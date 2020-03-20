@@ -261,3 +261,74 @@
     width: 290px;
   }
 }
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .main-content h1 {
+    font-size: 30px;
+  }
+
+  .details p {
+    grid-template-columns: 2.5fr 3fr;
+  }
+
+  .resume-list-block::before {
+    left: 50px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  .main-content h1 {
+    font-size: 25px;
+  }
+
+  .details p {
+    grid-template-columns: 2.5fr 4fr;
+  }
+
+  .resume-list-block::before {
+    left: 41px;
+  }
+
+  .contact-content h1 {
+    font-size: 30px;
+  }
+
+  .contacts-info p {
+    font-size: 12px;
+  }
+
+  .contact-form-title {
+    font-size: 12px;
+  }
+
+  .contact-input-form input,
+  .contact-input-form textarea {
+    width: 222px;
+  }
+
+  .contact-input-form input::placeholder,
+  .contact-input-form textarea::placeholder {
+    font-size: 12px;
+  }
+
+  .contact-input-form input[type="submit"] {
+    width: 244px;
+    font-size: 12px;
+  }
+
+  .copyright p {
+    font-size: 9px;
+  }
+
+  .social-icons i {
+    font-size: 18px;
+  }
+
+}
