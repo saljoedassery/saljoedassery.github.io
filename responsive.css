@@ -162,3 +162,46 @@
     margin-top: 190px;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .title-bar {
+    display: none;
+  }
+
+  .content-section {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .personal-info {
+    grid-template-columns: 1fr;
+    margin: 0 0 0 10px;
+  }
+
+  .image-section {
+    display: none;
+  }
+
+  .main-content {
+    margin-bottom: 20px;
+  }
+
+  .main-content h1 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    line-height: 20px;
+  }
+
+  .main-content p {
+    font-size: 9px;
+  }
+
+  .details p {
+    font-size: 8px;
+  }
+
+  .social-links i {
+    font-size: 13px;
+  }
+}
