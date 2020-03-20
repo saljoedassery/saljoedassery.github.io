@@ -164,18 +164,22 @@
 }
 
 @media only screen and (max-width: 425px) {
+  section {
+    margin: 0 auto;
+  }
+
   .title-bar {
     display: none;
   }
 
   .content-section {
     padding-left: 0;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .personal-info {
     grid-template-columns: 1fr;
-    margin: 0 0 0 10px;
+    margin: 0 auto;
   }
 
   .image-section {
@@ -183,25 +187,77 @@
   }
 
   .main-content {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .main-content h1 {
-    font-size: 20px;
+    font-size: 35px;
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 13px;
     line-height: 20px;
   }
 
   .main-content p {
-    font-size: 9px;
+    font-size: 17px;
   }
 
   .details p {
-    font-size: 8px;
+    font-size: 14px;
+    grid-template-columns: 2fr 3fr;
+    margin-bottom: 20px;
+  }
+
+  .social-links {
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .social-links i {
-    font-size: 13px;
+    font-size: 20px;
+    margin-right: 18px;
+  }
+
+  .projects-content {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-list-block::before {
+    left: 57px;
+  }
+
+  .skill-list {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-list-left,
+  .skill-list-right {
+    width: 100%;
+  }
+
+  .contact-details {
+    grid-template-columns: 1fr;
+  }
+
+  .copyright {
+    position: relative;
+    top: 266px;
+  }
+
+  .copyright p {
+    font-size: 11px;
+  }
+
+  .contact-forms {
+    position: relative;
+    top: -200px;
+  }
+
+  .contact-input-form input,
+  .contact-input-form textarea {
+    width: 90%;
+  }
+
+  .contact-input-form input[type="submit"] {
+    width: 290px;
   }
 }
