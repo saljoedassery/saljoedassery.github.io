@@ -163,7 +163,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px){
   section {
     margin: 0 auto;
   }
@@ -191,7 +191,7 @@
   }
 
   .main-content h1 {
-    font-size: 35px;
+    font-size: 31px;
     margin-top: 0;
     margin-bottom: 13px;
     line-height: 20px;
@@ -222,7 +222,7 @@
   }
 
   .resume-list-block::before {
-    left: 57px;
+    left: 13.5%;
   }
 
   .skill-list {
@@ -268,7 +268,7 @@
 
 @media only screen and (max-width: 375px) {
   .main-content h1 {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   .details p {
@@ -283,7 +283,7 @@
 
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   .main-content h1 {
     font-size: 25px;
   }
@@ -293,7 +293,7 @@
   }
 
   .resume-list-block::before {
-    left: 41px;
+    left: 13%;
   }
 
   .contact-content h1 {
