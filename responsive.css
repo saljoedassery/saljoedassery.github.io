@@ -1,0 +1,164 @@
+@media only screen and (max-width: 2560px) and (min-width: 1500px) {
+  .title-bar {
+    height: 86px;
+  }
+
+  .title-bar li a {
+    font-size: 20px;
+    margin-right: 170px;
+  }
+
+  .main-content {
+    margin-bottom: 100px;
+  }
+
+  .main-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .main-content p {
+    font-size: 24px;
+  }
+
+  .details p {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+
+  .social-links i {
+    font-size: 40px;
+    margin-right: 24px;
+  }
+
+  section {
+    margin: 70px auto;
+  }
+
+  section h1 {
+    font-size: 52px;
+  }
+
+  section p {
+    font-size: 30px;
+    line-height: 53px;
+  }
+
+  .intro button {
+    height: 88px;
+    border-radius: 45px;
+    font-size: 27px;
+    width: 318px;
+    margin-top: 50px;
+  }
+
+  .resume-list {
+    margin: 90px 0;
+  }
+
+  .resume-list h3 {
+    font-size: 27px;
+    margin-bottom: 80px;
+  }
+
+  .resume-list-block-title {
+    font-size: 29px;
+    margin-bottom: 11px;
+  }
+
+  .resume-list-block-date {
+    font-size: 24px;
+    padding-bottom: 26px;
+  }
+
+  .resume-list-block {
+    padding: 0 0 85px 30px;
+  }
+
+  .resume-list-block::before {
+    width: 18px;
+    height: 18px;
+    left: 374px;
+  }
+
+  .skill-section h3 {
+    font-size: 27px;
+    margin-bottom: 77px;
+  }
+
+  .skill-progress-bar p {
+    font-size: 21px;
+  }
+
+  .progres-bar {
+    height: 10px;
+  }
+
+  .progres {
+    height: 10px;
+  }
+
+  .project-card {
+    border: 2px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .project-card h2 {
+    font-size: 40px;
+  }
+
+  .project-card i {
+    font-size: 40px;
+  }
+
+  .project-description p {
+    font-size: 31px;
+    line-height: 44px;
+    margin: 24px 0;
+  }
+
+  .project-badge {
+    font-size: 24px;
+    padding: 0 15px;
+  }
+
+  .contact-details {
+    margin-top: 125px;
+  }
+
+  .contact-content h1 {
+    font-size: 52px;
+  }
+
+  .contacts-info p {
+    font-size: 26px;
+    margin-bottom: 63px;
+  }
+
+  .social-icons i {
+    font-size: 40px;
+    margin-right: 30px;
+  }
+
+  .contact-form-title {
+    font-size: 26px;
+  }
+
+  .contact-input-form input,
+  .contact-input-form textarea {
+    padding: 30px;
+  }
+
+  .contact-input-form input::placeholder,
+  .contact-input-form textarea::placeholder {
+    font-size: 26px;
+  }
+
+  .contact-input-form input[type="submit"] {
+    width: 76%;
+    font-size: 26px;
+  }
+
+  .copyright p {
+    margin-top: 190px;
+  }
+}
