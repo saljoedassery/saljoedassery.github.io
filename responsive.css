@@ -21,6 +21,14 @@
     font-size: 24px;
   }
 
+  .personal-info {
+    grid-template-columns: 1.5fr 2.5fr;
+  }
+
+  .image-section img {
+    width: 85%;
+  }
+
   .details p {
     font-size: 26px;
     margin-bottom: 40px;
@@ -78,7 +86,7 @@
   .resume-list-block::before {
     width: 18px;
     height: 18px;
-    left: 374px;
+    left: 19.7%;
   }
 
   .skill-section h3 {
@@ -154,16 +162,48 @@
   }
 
   .contact-input-form input[type="submit"] {
-    width: 76%;
+    width: 77%;
     font-size: 26px;
   }
 
   .copyright p {
     margin-top: 190px;
+    font-size: 24px;
   }
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 1024px) {
+  .main-content {
+    margin-bottom: 23px;
+  }
+
+  .main-content h1 {
+    font-size: 33px;
+  }
+
+  .details p {
+    font-size: 14px;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .social-links i {
+    font-size: 22px;
+  }
+
+  .resume-list-block::before {
+    left: 19.3%;
+  }
+
+  .copyright p {
+    font-size: 10px;
+  }
+
+  .contact-input-form input[type="submit"] {
+    width: 77%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   section {
     margin: 0 auto;
   }
@@ -240,11 +280,11 @@
 
   .copyright {
     position: relative;
-    top: 266px;
+    top: 311px;
   }
 
   .copyright p {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .contact-forms {
@@ -258,13 +298,9 @@
   }
 
   .contact-input-form input[type="submit"] {
-    width: 290px;
+    width: 100%;
   }
 }
-
-
-
-
 
 @media only screen and (max-width: 375px) {
   .main-content h1 {
@@ -278,10 +314,7 @@
   .resume-list-block::before {
     left: 50px;
   }
-
 }
-
-
 
 @media only screen and (max-width: 350px) {
   .main-content h1 {
@@ -330,5 +363,4 @@
   .social-icons i {
     font-size: 18px;
   }
-
 }
